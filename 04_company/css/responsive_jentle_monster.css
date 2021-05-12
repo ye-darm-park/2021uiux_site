@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media screen and (max-width:376px){
+  .content .contList {width: 100%;}
+  .content .contList>li {width: 50%; height: 188px;}
+  .content .contList>li:nth-child(1) {
+    background-image: url(../images_jentle_monster/mobile/01.png);
+  }
+  .content .contList>li:nth-child(2) {
+    background-image: url(../images_jentle_monster/mobile/02.png);
+  }
+  .content .contList>li:nth-child(3) {
+    background-image: url(../images_jentle_monster/mobile/03.png);
+  }
+  .content .contList>li:nth-child(4) {
+    background-image: url(../images_jentle_monster/mobile/04.png);
+  }
+  .content .contList>li:nth-child(5) {
+    background-image: url(../images_jentle_monster/mobile/05.png);
+  }
+  .content .contList>li:nth-child(6) {
+    background-image: url(../images_jentle_monster/mobile/06.png);
+  }
+  .content .contList>li:nth-child(7) {
+    background-image: url(../images_jentle_monster/mobile/07.png);
+  }
+  .content .contList>li:nth-child(8) {
+    background-image: url(../images_jentle_monster/mobile/08.png);
+  }
+
+}
