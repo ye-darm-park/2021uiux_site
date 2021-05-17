@@ -3,18 +3,29 @@
 
 /* header */
 #headerTop {
-  width: 100%; position: fixed; z-index: 9999;
-  left: 50%; transform: translateX(-50%); top: 0px;
-  background: #000; height: 105px;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0px;
+  background: #000;
 }
-#headerTop h1.logo {float: left; padding-left: 340px;
-  width: 100px; line-height: 105px;}
-#main_menu {float: right; padding-right: 340px;}
+#headerTop>#headerWrap {
+  width: 1240px;
+  margin: 0 auto;
+}
+#headerTop h1.logo {
+  float: left;
+  width: 100px;
+  line-height: 105px;
+}
+#main_menu {float: right;}
 
 #main_menu li {float: left;}
 #main_menu li a {display: block; padding: 0 20px;
   line-height: 105px; color: white; font-weight: bold;
-  font-size: 18pt;
+  font-size: 14pt;
 }
 #main_menu li:hover {background: #fff;}
 #main_menu li a:hover {color: #000;}
@@ -154,24 +165,19 @@
 
 /* footer */
 footer{
-  display: flex;
-  width: 100%;
-  float: left;
-  position: relative;
-  padding-left: 50px;
-  padding-right: 50px;
+  width: 1240px;
+  margin: 0 auto;
 }
 
 .footer1,
 .footer2,
 .footer3,
 .footer4 {
-  float: left;
+  padding-top: 30px;
+  padding-right: 30px;
   width: 25%;
+  float: left;
 }
-
-.footer4,
-.footer6{padding-right: 0;}
 
 .footer1 h4,
 .footer2 h4,
@@ -185,16 +191,18 @@ footer{
 
 .footer3 p{column-span: all;}
 
-.footer5,
+.footer5{
+  clear: both;
+  position: relative;
+  bottom: 0;
+  padding-top: 20px;
+  width: 50%;
+}
 .footer6{
   clear: both;
-  width: 100%;
-  position: absolute;
-  bottom: -100px;
-}
-
-.footer6{
+  position: relative;
+  bottom: 50px;
+  padding-top: 20px;
   width: 50%;
-  position: absolute;
   left: 50%;
-}
+  right: 0;}
