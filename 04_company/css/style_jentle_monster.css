@@ -133,6 +133,7 @@
 .content .contList>li:nth-child(5) .textbox,
 .content .contList>li:nth-child(7) .textbox {line-height: 50px;}
 
+.mobile{display: none;}
 
 /* container */
 .container{
@@ -164,6 +165,7 @@
   transform: translate(-10px,-10px);
 }
 
+.mobile{display: none;}
 
 
 /* footer */
